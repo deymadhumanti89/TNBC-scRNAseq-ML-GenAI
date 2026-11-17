@@ -1,3 +1,132 @@
+# ==============================
+# TNBC scRNA-seq ML GenAI
+# ==============================
 
-# Nextflow runtime state
+# ------------------------------
+# Data
+# ------------------------------
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+*.sra
+
+# Large matrices / datasets
+*.h5
+*.h5ad
+*.rds
+*.rdata
+*.mtx
+*.mtx.gz
+*.csv.gz
+
+# ------------------------------
+# Nextflow
+# ------------------------------
+work/
 .nextflow/
+.nextflow.log
+.nextflow.log.*
+
+# Nextflow reports generated locally
+report.html
+timeline.html
+trace.txt
+dag.html
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ------------------------------
+# R
+# ------------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# ------------------------------
+# Jupyter
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# macOS / Windows
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------
+# IDEs
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ------------------------------
+# Local configuration / secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# AWS credentials and configuration
+.aws/
+aws_credentials
+credentials
+
+# ------------------------------
+# Large local references
+# ------------------------------
+reference/indexes/
+reference/genome/
+reference/annotations/
+
+# ------------------------------
+# Generated results
+# ------------------------------
+results/
+outputs/
+plots/
+figures/
+
+# ------------------------------
+# Docker
+# ------------------------------
+*.tar
+*.tar.gz
+
+# ------------------------------
+# OS / editor backups
+# ------------------------------
+*~
