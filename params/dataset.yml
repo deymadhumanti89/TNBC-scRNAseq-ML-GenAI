@@ -5,3 +5,10 @@ dataset:
   technology: "10x Genomics Chromium v2"
   organism: "Homo sapiens"
   disease: "Triple-negative breast cancer"
+
+batching:
+  strategy: "equal_read_partitions"
+  number_of_batches: 10
+  fraction_per_batch: 0.10
+  aggregation_required: true
+  biological_independence: false
