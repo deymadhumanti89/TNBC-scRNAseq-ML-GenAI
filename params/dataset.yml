@@ -1,0 +1,7 @@
+dataset:
+  geo_accession: GSE188600
+  sra_project: SRP345543
+  run_accession: SRR16915023
+  technology: "10x Genomics Chromium v2"
+  organism: "Homo sapiens"
+  disease: "Triple-negative breast cancer"
